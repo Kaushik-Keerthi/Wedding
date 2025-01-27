@@ -1,0 +1,777 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Koushik & Keerthi getting hitched!</title>
+    <meta name="description" content="We would like to invite you to our big day.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Koushik & Keerthi getting hitched">
+    <meta property="og:description" content="We would like to invite you to our big day.">
+    <meta property="og:image" content="img/hero-min.jpg">
+    <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.jpg">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+
+    <script>
+        // load css files from CDN if local node_modules fail
+        function loadCssFromCDN(css) {
+            // create new link tag
+            const link = document.createElement('link');
+            if (css === 'animate.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css';
+            } else if (css === 'font-awesome.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+            }
+            link.rel = 'stylesheet';
+
+            // add link tag to head section
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+
+        // load js files from CDN if local node_modules fail
+        function loadJsFromCDN(js) {
+            if (js === 'waypoints.js') {
+                document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
+            } else if (js === 'jquery.js') {
+                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" onerror="loadCssFromCDN('font-awesome.css')">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body id="top">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<section class="hero">
+    <section class="navigation">
+        <header>
+            <div class="header-content">
+                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                <div class="header-nav">
+                    <nav>
+                        <ul class="primary-nav">
+                            <li><a href="#intro">Countdown</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <!-- <li><a href="#instagram">Instagram</a></li> -->
+                            <li><a href="#eng-pics">Engagement</a></li>
+                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Things to Do Nearby</a></li>
+                        </ul>
+                        <ul class="member-actions">
+                            <!-- <li><a href="#map" class="login">Venue</a></li> -->
+                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                        </ul>
+                    </nav>
+                </div>
+                <!-- <div class="navicon">
+                    <a class="nav-toggle" href="#"><span></span></a>
+                </div> -->
+            </div>
+        </header>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="hero-content text-center">
+                    <!--<h1>Koushik and Keerthi</h1>-->
+                    <img src="img/logo-lg.png">
+                    <!--<p class="intro">Koushik & Keerthi are getting hitched!</p>-->
+                    <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 hidden-xs"></div>
+            <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
+                                                           class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>
+            <div class="col-sm-4 hidden-xs"></div>
+        </div>
+    </div>
+    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
+</section>
+
+<!-- <section id="invitation" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>We are getting hitched</h3>
+                <p>The dates are 27<sup>th</sup> & 28<sup>th</sup> of November '17 and we would like you to be a part of
+                    it.</p>
+                <div class="share-bar"></div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<div class="flower-background">
+    <div class="flower" style="left: 5%; animation-duration: 4s; opacity: 0.8; font-size: 15px;">🌸</div>
+    <div class="flower" style="left: 15%; animation-duration: 6s; opacity: 0.6; font-size: 12px;">🌸</div>
+    <div class="flower" style="left: 25%; animation-duration: 5s; opacity: 0.5; font-size: 14px;">🌸</div>
+    <div class="flower" style="left: 35%; animation-duration: 7s; opacity: 0.7; font-size: 13px;">🌸</div>
+    <div class="flower" style="left: 45%; animation-duration: 3.5s; opacity: 0.6; font-size: 11px;">🌸</div>
+    <div class="flower" style="left: 55%; animation-duration: 6.5s; opacity: 0.4; font-size: 13px;">🌸</div>
+    <div class="flower" style="left: 65%; animation-duration: 4.5s; opacity: 0.5; font-size: 12px;">🌸</div>
+    <div class="flower" style="left: 75%; animation-duration: 5.5s; opacity: 0.3; font-size: 10px;">🌸</div>
+    <div class="flower" style="left: 85%; animation-duration: 6s; opacity: 0.4; font-size: 14px;">🌸</div>
+    <div class="flower" style="left: 95%; animation-duration: 7.5s; opacity: 0.5; font-size: 15px;">🌸</div>
+  </div>
+  <!-- <section id="content"> -->
+    <section class="events section-padding" id="intro">
+            <!-- Welcome Section -->
+<section class="welcome" aria-label="Welcome Section">
+    <h2>Welcome to Our Wedding!</h2>
+
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fbeffb;
+            text-align: center;
+        }
+
+        .welcome {
+            background-color: #fff;
+            padding: 2.5rem;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            margin: 2rem auto;
+            max-width: 900px;
+            border-radius: 1.5rem;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h2 {
+            font-size: 3rem;
+            color: #a25c9d;
+            margin-bottom: 1.5rem;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #444;
+            margin-bottom: 1rem;
+        }
+
+        #countdown {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        #countdown div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1.5rem;
+            border: 2px solid #e5cfe5;
+            border-radius: 1rem;
+            background: #fff5fc;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            min-width: 100px;
+            transition: transform 0.3s ease;
+        }
+
+        #countdown div:hover {
+            transform: translateY(-5px);
+        }
+
+        #countdown div span {
+            font-size: 2.5rem;
+            color: #5d3d73;
+            font-weight: bold;
+        }
+
+        #countdown div p {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #7c557e;
+        }
+
+        /* Icon Styles */
+        .icon {
+            font-size: 1.5rem;
+            color: #a25c9d;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            #countdown {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+
+    <!-- Countdown Section -->
+    <h1>Countdown to Our Big Day!</h1>
+    <div id="countdown" aria-label="Countdown Timer">
+        <div>
+            <div class="icon">💍</div>
+            <span id="days">00</span>
+            <p>Days</p>
+        </div>
+        <div>
+            <div class="icon">⏳</div>
+            <span id="hours">00</span>
+            <p>Hours</p>
+        </div>
+        <div>
+            <div class="icon">⌛</div>
+            <span id="minutes">00</span>
+            <p>Minutes</p>
+        </div>
+        <div>
+            <div class="icon">🎉</div>
+            <span id="seconds">00</span>
+            <p>Seconds</p>
+        </div>
+    </div>
+
+    <script>
+        // Set the target date (YYYY, MM-1, DD, HH, MM, SS)
+        const targetDate = new Date(2025, 2, 15, 17, 4, 0).getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+
+            // Time calculations for days, hours, minutes, and seconds
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Update countdown display
+            document.getElementById('days').textContent = Math.max(days, 0);
+            document.getElementById('hours').textContent = Math.max(hours, 0);
+            document.getElementById('minutes').textContent = Math.max(minutes, 0);
+            document.getElementById('seconds').textContent = Math.max(seconds, 0);
+
+            // Countdown complete message
+            if (distance < 0) {
+                document.getElementById('countdown').innerHTML =
+                    "<h2>The big day has arrived! 🎊</h2>";
+            }
+        }
+
+        // Initialize and update countdown every second
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
+</section>
+
+              
+              <section>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img src="img/Photo7.jpg" class="img-responsive wp1" style="height: 300px; width: 300px; object-fit: cover; margin: 0 auto;">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/Photo17.jpg" class="img-responsive wp2" style="height: 300px; width: 300px; object-fit: cover; margin: 0 auto;">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/eng_pics/Photo8.jpg" class="img-responsive wp3" style="height: 300px; width: 300px; object-fit: cover; margin: 0 auto;">
+                    </div>
+                </div>
+            </section>
+            
+            <div id="audio-container">
+                <!-- Background Music -->
+                <audio id="backgroundmusic" autoplay loop>
+                  <source src="../wedding-website/img/Sundari.mp3" type="audio/mp3" />
+                  Your browser does not support the audio element.
+                </audio>
+              
+                <!-- Music Control Icon -->
+                <div id="audio-icon" style="
+                    width: 4rem;
+                    height: 4rem;
+                    position: fixed;
+                    bottom: 2rem;
+                    right: 2rem;
+                    cursor: pointer;
+                    opacity: 0.4;
+                    animation: muter 4s linear infinite;
+                    transform-origin: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;">
+                  <img src="../wedding-website/img/Music-removebg-preview.png" alt="Music Icon" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+              </div>
+              
+              <script>
+                const audio = document.getElementById('backgroundmusic');
+                const audioIcon = document.getElementById('audio-icon');
+              
+                // Check if autoplay works
+                window.onload = function () {
+                  audio.play().catch(() => {
+                    console.log("Autoplay blocked by the browser. Click the icon to start the music.");
+                    audioIcon.style.opacity = '1'; // Highlight the icon for manual play
+                  });
+                };
+              
+                // Toggle Music Play/Pause
+                audioIcon.addEventListener('click', () => {
+                  if (audio.paused) {
+                    audio.play();
+                    audioIcon.style.opacity = '1'; // Highlight the icon when music is playing
+                  } else {
+                    audio.pause();
+                    audioIcon.style.opacity = '0.4'; // Dim the icon when music is paused
+                  }
+                });
+              </script>
+              
+              <style>
+                @keyframes muter {
+                  from {
+                    transform: rotate(0);
+                  }
+                  to {
+                    transform: rotate(360deg);
+                  }
+                }
+              </style>
+                    
+
+</section>
+
+<section class="events section-padding" id="events">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="header">Events</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                <div class="wp3">
+                    <p><strong>March 14th, 2025</strong></p>
+
+                    <h5>Sangeeth Night <span class="time">From 7 P.M</span></h5>
+                    <p>Sangeet Night is a celebration of love, music, and togetherness! Join us for an evening filled with lively music, energetic dance performances, and cherished moments as we come together to create memories for a lifetime. Let’s make this a night to remember with joyful vibes, delicious food, and non-stop fun!.</p>
+                </div>
+                <!-- <div class="wp5">
+                    <h5>Cocktail Night <span class="time">7PM - 12AM</span></h5>
+                    <p>This event is no way close to ethnic. The bride & groom would like to have some "shots before the
+                        knot". With booze flowing down the floor and the western attire on, everyone would be busy
+                        showing off their new moves on the stage which they have finely honed. Lastly, expect some beer
+                        pong matches & karaoke for sure.</p>
+                </div> -->
+                <div class="row section-padding">
+                    <div class="col-md-4 col-md-offset-4 text-center">
+                        <a class="btn btn-accent btn-small" href="https://www.google.com/maps/place/Hilton+Orlando/@28.4248385,-81.4589945,15z/data=!4m20!1m10!3m9!1s0x88e77e390a91cf6f:0xc0ac4aa79defb1ab!2sHilton+Orlando!5m2!4m1!1i2!8m2!3d28.4248385!4d-81.4589945!16zL20vMGJoaDM3!3m8!1s0x88e77e390a91cf6f:0xc0ac4aa79defb1ab!5m2!4m1!1i2!8m2!3d28.4248385!4d-81.4589945!16zL20vMGJoaDM3?entry=ttu" target="_blank">
+                            <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Get Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                <div class="wp4">
+                    <p><strong>March 15th, 2025</strong></p>
+
+                    <h5> Wedding Ceremony <span class="time">07:04 P.M</span></h5>
+                    <p>
+                        The Wedding Ceremony marks the beginning of a beautiful journey together. Join us as we celebrate the union of two hearts in a sacred and meaningful ritual. Surrounded by loved ones, we will exchange vows, create lasting memories, and embark on a lifelong adventure filled with love, respect, and commitment.
+                        </p>
+                        
+                </div>
+                <!-- <div class="wp6">
+                    <h5>Wedding <span class="time">6PM-12AM</span></h5>
+                    <p>This is the main event in the entire wedding when the bride and the groom tie the
+                        knot. The groom comes with the barat and is greeted by the bride side with some dhol of course
+                        as maximum number of guests would be attending this event. This is when the couple circle the
+                        sacred fire and are finally declared husband and wife.</p>
+                </div> -->
+                <div class="row section-padding">
+                    <div class="col-md-4 col-md-offset-4 text-center">
+                        <a class="btn btn-accent btn-small" href="https://www.google.com/maps/place/Hilton+Orlando/@28.4248385,-81.4589945,15z/data=!4m20!1m10!3m9!1s0x88e77e390a91cf6f:0xc0ac4aa79defb1ab!2sHilton+Orlando!5m2!4m1!1i2!8m2!3d28.4248385!4d-81.4589945!16zL20vMGJoaDM3!3m8!1s0x88e77e390a91cf6f:0xc0ac4aa79defb1ab!5m2!4m1!1i2!8m2!3d28.4248385!4d-81.4589945!16zL20vMGJoaDM3?entry=ttu" target="_blank">
+                            <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Get Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row section-padding">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
+                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress code
+                </a>
+            </div>
+        </div> -->
+        <!--<div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>-->
+    </div>
+
+    <!-- <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <h3 class="text-center section-padding">Ugh... dress codes?</h3>
+                    <h5>Mehndi <span class="time">1PM - 5PM</span></h5>
+                    <p>
+                        <strong>Ethnic indian wear</strong>
+                        <br>
+                        Ladies can wear something
+                        <a href="https://www.pinterest.com/ramswarooppatra/mehndi-dress-for-women/">bright & vivid</a>
+                        and gentlemen can be on
+                        their <a href="https://www.pinterest.com/ramswarooppatra/mehndi-dress-for-men/">vibrant
+                        kurtas</a> with pants or pyjamas along with an optional shawl.
+                    </p> -->
+                    <!-- <h5>Cocktail Night <span class="time">7PM - 12AM</span></h5>
+                    <p>
+                        <strong>Western attire</strong>
+                        <br>
+                        A semi-formal look that is contemporary & fashionable which is not too prim & proper is the best
+                        to pull off this night. You can see some pins for
+                        <a href="https://www.pinterest.com/ramswarooppatra/cocktail-night-outfit-for-women/">ladies</a>
+                        & <a href="https://www.pinterest.com/ramswarooppatra/cocktail-night-outfit-for-men/">gents</a>.
+                    </p>
+                    <h5>Wedding <span class="time">6PM-12AM</span></h5>
+                    <p> -->
+                        <!-- <strong>Indo-western</strong>
+                        <br>
+                        Ladies can flaunt their unconventional sarees,
+                        <a href="https://www.pinterest.com/ramswarooppatra/indo-western-lehengas/">lehengas</a>,
+                        <a href="https://www.pinterest.com/ramswarooppatra/indo-western-anarkalis/">anarkalis</a>,
+                        dresses and the list
+                        goes on whereas gentlemen can wear any kind of suit or just blazer. If you don't like to wear a
+                        suit/blazer, you can do a <a
+                            href="https://www.pinterest.com/ramswarooppatra/high-neck-jackets-for-men/">high-neck
+                        (band gala) waistcoat & shirt</a> combo.
+                    </p>
+                </div> -->
+            <!-- </div> -->
+            <!-- /.modal-content -->
+        <!-- </div> -->
+        <!-- /.modal-dialog -->
+    <!-- </div>/.modal -->
+    </div>
+</section>
+
+<!-- <section id="instagram" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>A picture is worth a thousand words!</h3>
+                <p>Help us capture the moment, tag your photos with the hashtag
+                    <a href="https://instagram.com/explore/tags/ramandantara/" target="_blank">#KoushikAndKeerthi</a>
+                </p>
+            </div>
+        </div>
+        <div class="row section-border wp7">
+            <div class="col-md-4 col-md-offset-4">
+                <img src="img/iphone_instagram.jpg">
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section id="eng-pics" class="section-padding">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Engagement Pics</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/Photo4.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/Photo4.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/WhatsApp Image 2025-01-24 at 8.37.22 PM.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/WhatsApp Image 2025-01-24 at 8.37.22 PM.jpeg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/WhatsApp Image 2025-01-24 at 8.37.23 PM (1).jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/WhatsApp Image 2025-01-24 at 8.37.23 PM (1).jpeg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/WhatsApp Image 2025-01-24 at 8.37.23 PM (2).jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/WhatsApp Image 2025-01-24 at 8.37.23 PM (2).jpeg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/Photo5.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/Photo5.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/Photo13.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/Photo13.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row hidden-lg hidden-md hidden-xs">
+            <div class="col-xs-12 section-border section-padding"></div>
+        </div>
+    </div>
+    <!--<div class="row">
+        <div class="col-md-12">
+            <div class="diamond floating-logo">
+                <img src="img/sketch-logo.png" alt="Sketch Logo">
+                <div class="ring"></div>
+            </div>
+        </div>
+    </div>-->
+    </div>
+</section>
+
+<section id="video-bg" class="hidden-sm hidden-xs">
+    <div id="bgndVideo" class="player"
+         data-property="{videoURL:'https://www.youtube.com/watch?v=an8cAHG-pqs&ab_channel=Exploropia',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
+    </div>
+    <div id="video-content">
+        <h5>Orlando</h5>
+        <p>City of joy</p>
+    </div>
+</section>
+<div class="wp3" style="font-family: 'Poppins', sans-serif; margin: 20px; line-height: 1.6;">
+    <p style="font-size: 22px; font-weight: bold; color: #333;">Things to Do Nearby</p>
+    
+    <!-- Universal Studios -->
+    <div class="place" style="margin-bottom: 20px;">
+        <h4 style="font-size: 18px; color: #0056b3; cursor: pointer; transition: color 0.3s ease;">
+            Universal Studios Orlando
+        </h4>
+        <p style="font-size: 16px; color: #555; margin: 5px 0;">
+            Experience thrilling rides and attractions.
+        </p>
+        <a href="https://maps.app.goo.gl/Z3XhPuVz6ParpuNKA" target="_blank">
+            <button style="background-color: #0056b3; color: white; border: none; padding: 8px 12px; font-size: 14px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">
+                View on Map
+            </button>
+        </a>
+    </div>
+
+    <!-- SeaWorld -->
+    <div class="place" style="margin-bottom: 20px;">
+        <h4 style="font-size: 18px; color: #0056b3; cursor: pointer; transition: color 0.3s ease;">
+            SeaWorld Orlando
+        </h4>
+        <p style="font-size: 16px; color: #555; margin: 5px 0;">
+            Explore marine life shows and exhibits.
+        </p>
+        <a href="https://maps.app.goo.gl/a5KQsQrLeooKow6w8" target="_blank">
+            <button style="background-color: #0056b3; color: white; border: none; padding: 8px 12px; font-size: 14px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">
+                View on Map
+            </button>
+        </a>
+    </div>
+
+    <!-- Premium Outlets -->
+    <div class="place" style="margin-bottom: 20px;">
+        <h4 style="font-size: 18px; color: #0056b3; cursor: pointer; transition: color 0.3s ease;">
+            Orlando International Premium Outlets
+        </h4>
+        <p style="font-size: 16px; color: #555; margin: 5px 0;">
+            Shop at brand-name outlets.
+        </p>
+        <a href="https://maps.app.goo.gl/Jg5AVBgjGgum3Er16" target="_blank">
+            <button style="background-color: #0056b3; color: white; border: none; padding: 8px 12px; font-size: 14px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">
+                View on Map
+            </button>
+        </a>
+    </div>
+</div>
+
+<section class="rsvp text-center" id="rsvp">
+    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span></button>
+                    <div class="section-padding">
+                        <h3>Thank you!</h3>
+                        <p>We are glad to see you join us on our big day.</p>
+                        <div id="add-to-cal" style="display: none;"></div> <!-- Initially hidden -->
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-md-offset-3 rsvp-container">
+                <h3>What are you waiting for?</h3>
+                <p>We would greatly appreciate it if you could RSVP before 10th of February</p>
+                <form id="rsvp-form" class="rsvp-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdTAWvY1sTo7vuNsCtJzvvGr1GeH0zvtvDnW9sEU1mP3jzOeg/viewform" method="GET">
+                    <div class="form-input-group">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="entry.1498135098" placeholder="Your email" required>
+                    </div>
+                    <div class="form-input-group">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="entry.877086558" placeholder="Your name" required>
+                    </div>
+                    <div class="form-input-group">
+                        <i class="fa fa-users"></i>
+                        <input type="number" name="entry.177847364" min="0" max="8" placeholder="Number of additional guests (husband/wife or kids)" required>
+                    </div>
+                    <div class="form-input-group">
+                        <i class="fa fa-key"></i>
+                        <input type="number" name="entry.1615271708" min="0" placeholder="Invite code" required>
+                    </div>
+                    <button class="btn-fill" type="submit">
+                        Yes, that's me!
+                    </button>
+                    <div class="section-padding">
+                        <h3>Thank you!</h3>
+                        <p>If staying at the hotel, click the link to book a hotel room with a discount: <a href="https://book.passkey.com/gt/220239942?gtid=503d20a6af05de4e2909e7045315b69e" target="_blank">Hotel Booking Link</a></p>
+                        <div id="add-to-cal" style="display: none;"></div> <!-- Initially hidden -->
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Calendar Buttons (Initially hidden) -->
+    <div id="calendar-container" style="display: none;">
+        <h3>Thank you for your RSVP!</h3>
+        <p>Save the date to your calendar:</p>
+        <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2dhb3NoaHJ0OTc5bXYwNnVvcGN2YjVhbXUga2Vlc2FyaWJoYXJhdGg1QG0&tmsrc=keesaribharath5%40gmail.com"
+            target="_blank" class="calendar-button">
+            Add to Google Calendar
+        </a>
+        <a href="data:text/calendar;charset=utf-8,BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:Wedding Ceremony
+DTSTART:20250315T190400Z
+DTEND:20250315T220000Z
+LOCATION:Hilton Orlando
+DESCRIPTION:Witness the sacred union of Kaushik & Keerthi in a traditional ceremony filled with cultural rituals. Dress Code: Traditional Indian or Formal Attire.
+END:VEVENT
+END:VCALENDAR"
+            download="wedding-ceremony.ics" class="calendar-button">
+            Add to iCal/Outlook
+        </a>
+    </div>
+</section>
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+                <p>Crafted by Kaushik with lots of <span class="fa fa-heart pulse2"></span> for Keerthi</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
+<script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="js/vendor/ouical.js"></script>
+<script src="js/scripts.min.js"></script>
+<!-- <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script> -->
+<!-- Google Analytics -->
+<!-- <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-46465113-4', 'auto');
+    ga('send', 'pageview');
+</script> -->
+</section>
+</body>
+</html>
+
+<!-- Coded By Bharath Keesari -->
